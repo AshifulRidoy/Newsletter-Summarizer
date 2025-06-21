@@ -2,8 +2,8 @@ name: Daily Newsletter Summarizer
 
 on:
   schedule:
-    # Run daily at 7:01 AM German time (6:01 AM UTC in winter, 5:01 AM UTC in summer)
-    - cron: '1 6 * * *'
+    # Run daily at 0:01 Uhr German time (11:01 PM UTC in winter, 10:01 PM UTC in summer)
+    - cron: '1 23 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
